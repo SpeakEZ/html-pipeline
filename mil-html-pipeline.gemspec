@@ -23,5 +23,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency "escape_utils",    "~> 0.3"
   gem.add_dependency "activesupport",   RUBY_VERSION < "1.9.3" ? [">= 2", "< 4"] : ">= 2"
 
-  gem.add_development_dependency "mil-linguist", "~> 2.6.8"
+  gem.add_development_dependency "mil-github-linguist", "~> 2.8.8"
 end
